@@ -9,7 +9,7 @@ const SITE = {
   status: "Open to Data Science & AI roles",
   pitch:
     "I turn messy enterprise data into models, pipelines, dashboards and LLM-powered tools. " +
-    "5 roles so far at Allianz, Munich Re, Samsung Semiconductor and BIBB. " +
+    "Experience at Allianz, Munich Re, Samsung Semiconductor and BIBB. " +
     "Based in Munich and finishing my M.Sc. in Web & Data Science (Nov 2026).",
 
   links: {
@@ -19,12 +19,8 @@ const SITE = {
     cv: "assets/Ayush_Rawat_CV.pdf",
   },
 
-  stats: [
-    { value: "5", label: "industry roles since 2023" },
-    { value: "4", label: "companies in Munich & Bonn" },
-    { value: "M.Sc.", label: "Web & Data Science" },
-    { value: "3", label: "excellent reference letters" },
-  ],
+  // Optional stat chips under the intro, e.g. { value: "M.Sc.", label: "Web & Data Science" }
+  stats: [],
 
   // The role you're in right now. Add bullets as you go.
   now: {

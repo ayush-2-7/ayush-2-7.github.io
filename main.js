@@ -32,6 +32,7 @@ $("pitch").textContent = SITE.pitch;
 $("status").textContent = SITE.status;
 $("cta").innerHTML = buttons();
 $("cta-2").innerHTML = buttons();
+$("stats").hidden = !SITE.stats.length;
 $("stats").innerHTML = SITE.stats
   .map((s) => `<div class="stat"><b>${esc(s.value)}</b><span>${esc(s.label)}</span></div>`)
   .join("");
